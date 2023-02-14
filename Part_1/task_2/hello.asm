@@ -1,4 +1,4 @@
-use16 ; tell fasm this is 16 bit code
+bits 16 ; tell fasm this is 16 bit code
 org 0x7c00 ; tell fasm to start outputting stuff at offset 0x7c00
 
 boot:
