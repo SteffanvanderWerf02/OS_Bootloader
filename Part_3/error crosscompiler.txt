@@ -1,0 +1,291 @@
+steffan@steffan-virtual-machine:~$ homebrew
+homebrew: command not found
+steffan@steffan-virtual-machine:~$ ^C[200~sudo apt update~
+steffan@steffan-virtual-machine:~$ sudo apt update
+[sudo] password for steffan: 
+Hit:1 http://nl.archive.ubuntu.com/ubuntu jammy InRelease
+Get:2 http://nl.archive.ubuntu.com/ubuntu jammy-updates InRelease [119 kB]     
+Get:3 http://packages.microsoft.com/repos/code stable InRelease [10,4 kB]      
+Get:4 http://nl.archive.ubuntu.com/ubuntu jammy-backports InRelease [107 kB]   
+Get:5 https://packages.microsoft.com/repos/vscode stable InRelease [3.959 B]   
+Get:6 http://security.ubuntu.com/ubuntu jammy-security InRelease [110 kB]     
+Get:7 http://nl.archive.ubuntu.com/ubuntu jammy-updates/main amd64 Packages [898 kB]
+Get:8 http://nl.archive.ubuntu.com/ubuntu jammy-updates/main i386 Packages [441 kB]
+Get:9 http://packages.microsoft.com/repos/code stable/main arm64 Packages [137 kB]
+Get:10 http://packages.microsoft.com/repos/code stable/main amd64 Packages [136 kB]
+Get:11 http://packages.microsoft.com/repos/code stable/main armhf Packages [137 kB]
+Get:12 http://nl.archive.ubuntu.com/ubuntu jammy-updates/main Translation-en [197 kB]
+Get:13 http://nl.archive.ubuntu.com/ubuntu jammy-updates/main amd64 DEP-11 Metadata [101 kB]
+Get:14 http://nl.archive.ubuntu.com/ubuntu jammy-updates/main amd64 c-n-f Metadata [13,5 kB]
+Get:15 http://nl.archive.ubuntu.com/ubuntu jammy-updates/restricted i386 Packages [27,1 kB]
+Get:16 http://nl.archive.ubuntu.com/ubuntu jammy-updates/restricted amd64 Packages [624 kB]
+Get:17 http://nl.archive.ubuntu.com/ubuntu jammy-updates/restricted Translation-en [96,3 kB]
+Get:18 http://nl.archive.ubuntu.com/ubuntu jammy-updates/restricted amd64 c-n-f Metadata [580 B]
+Get:19 http://nl.archive.ubuntu.com/ubuntu jammy-updates/universe amd64 Packages [853 kB]
+Get:20 http://nl.archive.ubuntu.com/ubuntu jammy-updates/universe i386 Packages [586 kB]
+Get:21 https://packages.microsoft.com/repos/vscode stable/main amd64 Packages [350 kB]
+Get:22 http://nl.archive.ubuntu.com/ubuntu jammy-updates/universe Translation-en [164 kB]
+Get:23 http://nl.archive.ubuntu.com/ubuntu jammy-updates/universe amd64 DEP-11 Metadata [267 kB]
+Get:24 http://nl.archive.ubuntu.com/ubuntu jammy-updates/universe DEP-11 48x48 Icons [169 kB]
+Get:25 http://security.ubuntu.com/ubuntu jammy-security/main i386 Packages [257 kB]
+Get:26 http://nl.archive.ubuntu.com/ubuntu jammy-updates/universe DEP-11 64x64 Icons [255 kB]
+Get:27 http://nl.archive.ubuntu.com/ubuntu jammy-updates/universe amd64 c-n-f Metadata [17,3 kB]
+Get:28 http://nl.archive.ubuntu.com/ubuntu jammy-updates/multiverse amd64 Packages [9.672 B]
+Get:29 http://nl.archive.ubuntu.com/ubuntu jammy-updates/multiverse i386 Packages [3.500 B]
+Get:30 http://nl.archive.ubuntu.com/ubuntu jammy-updates/multiverse Translation-en [3.260 B]
+Get:31 http://nl.archive.ubuntu.com/ubuntu jammy-updates/multiverse amd64 DEP-11 Metadata [940 B]
+Get:32 http://nl.archive.ubuntu.com/ubuntu jammy-backports/main amd64 DEP-11 Metadata [7.972 B]
+Get:33 http://nl.archive.ubuntu.com/ubuntu jammy-backports/universe amd64 Packages [19,5 kB]
+Get:34 http://nl.archive.ubuntu.com/ubuntu jammy-backports/universe i386 Packages [10,7 kB]
+Get:35 http://nl.archive.ubuntu.com/ubuntu jammy-backports/universe Translation-en [13,9 kB]
+Get:36 http://security.ubuntu.com/ubuntu jammy-security/main amd64 Packages [643 kB]
+Get:37 http://nl.archive.ubuntu.com/ubuntu jammy-backports/universe amd64 DEP-11 Metadata [12,4 kB]
+Get:38 http://nl.archive.ubuntu.com/ubuntu jammy-backports/universe amd64 c-n-f Metadata [392 B]
+Get:39 http://security.ubuntu.com/ubuntu jammy-security/main Translation-en [134 kB]
+Get:40 http://security.ubuntu.com/ubuntu jammy-security/main amd64 DEP-11 Metadata [41,5 kB]
+Get:41 http://security.ubuntu.com/ubuntu jammy-security/main amd64 c-n-f Metadata [8.388 B]
+Get:42 http://security.ubuntu.com/ubuntu jammy-security/restricted amd64 Packages [582 kB]
+Get:43 http://security.ubuntu.com/ubuntu jammy-security/restricted Translation-en [90,4 kB]
+Get:44 http://security.ubuntu.com/ubuntu jammy-security/universe i386 Packages [500 kB]
+Get:45 http://security.ubuntu.com/ubuntu jammy-security/universe amd64 Packages [678 kB]
+Get:46 http://security.ubuntu.com/ubuntu jammy-security/universe Translation-en [105 kB]
+Get:47 http://security.ubuntu.com/ubuntu jammy-security/universe amd64 DEP-11 Metadata [15,2 kB]
+Get:48 http://security.ubuntu.com/ubuntu jammy-security/universe DEP-11 48x48 Icons [11,4 kB]
+Get:49 http://security.ubuntu.com/ubuntu jammy-security/universe DEP-11 64x64 Icons [19,7 kB]
+Get:50 http://security.ubuntu.com/ubuntu jammy-security/universe amd64 c-n-f Metadata [13,1 kB]
+Fetched 9.001 kB in 3s (3.154 kB/s)                               
+Reading package lists... Done
+Building dependency tree... Done
+Reading state information... Done
+25 packages can be upgraded. Run 'apt list --upgradable' to see them.
+steffan@steffan-virtual-machine:~$ sudo apt install build-essential git
+Reading package lists... Done
+Building dependency tree... Done
+Reading state information... Done
+build-essential is already the newest version (12.9ubuntu3).
+The following packages were automatically installed and are no longer required:
+  libflashrom1 libftdi1-2 libllvm13 linux-headers-5.15.0-43
+  linux-headers-5.15.0-43-generic linux-image-5.15.0-43-generic
+  linux-modules-5.15.0-43-generic linux-modules-extra-5.15.0-43-generic
+Use 'sudo apt autoremove' to remove them.
+Suggested packages:
+  git-daemon-run | git-daemon-sysvinit git-doc git-email git-gui gitk gitweb
+  git-cvs git-mediawiki git-svn
+The following packages will be upgraded:
+  git
+1 upgraded, 0 newly installed, 0 to remove and 24 not upgraded.
+Need to get 3.141 kB of archives.
+After this operation, 0 B of additional disk space will be used.
+Do you want to continue? [Y/n] y
+Get:1 http://nl.archive.ubuntu.com/ubuntu jammy-updates/main amd64 git amd64 1:2.34.1-1ubuntu1.8 [3.141 kB]
+Fetched 3.141 kB in 0s (9.279 kB/s)
+(Reading database ... 239777 files and directories currently installed.)
+Preparing to unpack .../git_1%3a2.34.1-1ubuntu1.8_amd64.deb ...
+Unpacking git (1:2.34.1-1ubuntu1.8) over (1:2.34.1-1ubuntu1.6) ...
+Setting up git (1:2.34.1-1ubuntu1.8) ...
+steffan@steffan-virtual-machine:~$ /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
+==> Checking for `sudo` access (which may request your password)...
+==> This script will install:
+/home/linuxbrew/.linuxbrew/bin/brew
+/home/linuxbrew/.linuxbrew/share/doc/homebrew
+/home/linuxbrew/.linuxbrew/share/man/man1/brew.1
+/home/linuxbrew/.linuxbrew/share/zsh/site-functions/_brew
+/home/linuxbrew/.linuxbrew/etc/bash_completion.d/brew
+/home/linuxbrew/.linuxbrew/Homebrew
+
+Press RETURN/ENTER to continue or any other key to abort:
+==> /usr/bin/sudo /bin/chown -R steffan:steffan /home/linuxbrew/.linuxbrew/Homebrew
+==> Downloading and installing Homebrew...
+warning: re-init: ignored --initial-branch=master
+remote: Enumerating objects: 1545, done.
+remote: Counting objects: 100% (841/841), done.
+remote: Compressing objects: 100% (212/212), done.
+remote: Total 1545 (delta 657), reused 784 (delta 616), pack-reused 704
+Receiving objects: 100% (1545/1545), 900.58 KiB | 4.87 MiB/s, done.
+Resolving deltas: 100% (1025/1025), completed with 205 local objects.
+From https://github.com/Homebrew/brew
+   66c9d5f2a..d1cba00ee  master     -> origin/master
+ * [new tag]             4.0.0      -> 4.0.0
+ * [new tag]             4.0.1      -> 4.0.1
+ * [new tag]             4.0.2      -> 4.0.2
+ * [new tag]             4.0.3      -> 4.0.3
+HEAD is now at d1cba00ee Merge pull request #14779 from MikeMcQuaid/bye_atom
+==> Downloading https://formulae.brew.sh/api/formula.json
+######################################################################## 100.0%
+==> Downloading https://formulae.brew.sh/api/cask.json
+######################################################################## 100.0%
+Warning: /home/linuxbrew/.linuxbrew/bin is not in your PATH.
+  Instructions on how to configure your shell for Homebrew
+  can be found in the 'Next steps' section below.
+==> Installation successful!
+
+==> Homebrew has enabled anonymous aggregate formulae and cask analytics.
+Read the analytics documentation (and how to opt-out) here:
+  https://docs.brew.sh/Analytics
+No analytics data has been sent yet (nor will any be during this install run).
+
+==> Homebrew is run entirely by unpaid volunteers. Please consider donating:
+  https://github.com/Homebrew/brew#donations
+
+==> Next steps:
+- Run these two commands in your terminal to add Homebrew to your PATH:
+    (echo; echo 'eval "$(/home/linuxbrew/.linuxbrew/bin/brew shellenv)"') >> /home/steffan/.profile
+    eval "$(/home/linuxbrew/.linuxbrew/bin/brew shellenv)"
+- Install Homebrew's dependencies if you have sudo access:
+    sudo apt-get install build-essential
+  For more information, see:
+    https://docs.brew.sh/Homebrew-on-Linux
+- We recommend that you install GCC:
+    brew install gcc
+- Run brew help to get started
+- Further documentation:
+    https://docs.brew.sh
+
+steffan@steffan-virtual-machine:~$ (echo; echo 'eval "$(/home/linuxbrew/.linuxbrew/bin/brew shellenv)"') >> /home/h2s/.bashrc
+bash: /home/h2s/.bashrc: No such file or directory
+steffan@steffan-virtual-machine:~$ (echo; echo 'eval "$(/home/linuxbrew/.linuxbrew/bin/brew shellenv)"') >> /home/h2s/.bashrc^C
+steffan@steffan-virtual-machine:~$ echo 'eval "$(/home/linuxbrew/.linuxbrew/bin/brew shellenv)"') >> /home/h2s/.bashrc
+bash: syntax error near unexpected token `)'
+steffan@steffan-virtual-machine:~$ eval "$(/home/linuxbrew/.linuxbrew/bin/brew shellenv)"
+steffan@steffan-virtual-machine:~$ brew doctor
+Your system is ready to brew.
+steffan@steffan-virtual-machine:~$ brew tap zanders3/homebrew-gcc_cross_compilers
+Running `brew update --auto-update`...
+==> Tapping zanders3/gcc_cross_compilers
+Cloning into '/home/linuxbrew/.linuxbrew/Homebrew/Library/Taps/zanders3/homebrew-gcc_cross_compilers'...
+remote: Enumerating objects: 293, done.
+remote: Total 293 (delta 0), reused 0 (delta 0), pack-reused 293
+Receiving objects: 100% (293/293), 39.32 KiB | 2.46 MiB/s, done.
+Resolving deltas: 100% (195/195), done.
+Tapped 9 formulae (23 files, 119.5KB).
+steffan@steffan-virtual-machine:~$ brew install i386-elf-gcc
+Running `brew update --auto-update`...
+Error: Formulae found in multiple taps: 
+       * zanders3/gcc_cross_compilers/i386-elf-gcc
+       * nativeos/i386-elf-toolchain/i386-elf-gcc
+
+Please use the fully-qualified name (e.g. zanders3/gcc_cross_compilers/i386-elf-gcc) to refer to the formula.
+steffan@steffan-virtual-machine:~$ brew install zanders3/gcc_cross_compilers/i386-elf-gcc
+Error: Formulae found in multiple taps: 
+       * zanders3/gcc_cross_compilers/i386-elf-binutils
+       * nativeos/i386-elf-toolchain/i386-elf-binutils
+
+Please use the fully-qualified name (e.g. zanders3/gcc_cross_compilers/i386-elf-binutils) to refer to the formula.
+steffan@steffan-virtual-machine:~$ brew install zanders3/gcc_cross_compilers/i386-elf-binutils
+==> Fetching dependencies for zanders3/gcc_cross_compilers/i386-elf-binutils: gmp, isl, mpfr, libmpc, lz4, xz, zlib, zstd, binutils and gcc
+==> Fetching gmp
+==> Downloading https://ghcr.io/v2/homebrew/core/gmp/manifests/6.2.1_1
+######################################################################## 100.0%
+==> Downloading https://ghcr.io/v2/homebrew/core/gmp/blobs/sha256:786ae29f0c0b06
+==> Downloading from https://pkg-containers.githubusercontent.com/ghcr1/blobs/sh
+######################################################################## 100.0%
+==> Fetching isl
+==> Downloading https://ghcr.io/v2/homebrew/core/isl/manifests/0.25
+######################################################################## 100.0%
+==> Downloading https://ghcr.io/v2/homebrew/core/isl/blobs/sha256:c0244c95ed9cc8
+==> Downloading from https://pkg-containers.githubusercontent.com/ghcr1/blobs/sh
+######################################################################## 100.0%
+==> Fetching mpfr
+==> Downloading https://ghcr.io/v2/homebrew/core/mpfr/manifests/4.2.0
+######################################################################## 100.0%
+==> Downloading https://ghcr.io/v2/homebrew/core/mpfr/blobs/sha256:3e62ca94c057c
+==> Downloading from https://pkg-containers.githubusercontent.com/ghcr1/blobs/sh
+######################################################################## 100.0%
+==> Fetching libmpc
+==> Downloading https://ghcr.io/v2/homebrew/core/libmpc/manifests/1.3.1
+######################################################################## 100.0%
+==> Downloading https://ghcr.io/v2/homebrew/core/libmpc/blobs/sha256:f6542ae5bcf
+==> Downloading from https://pkg-containers.githubusercontent.com/ghcr1/blobs/sh
+######################################################################## 100.0%
+==> Fetching lz4
+==> Downloading https://ghcr.io/v2/homebrew/core/lz4/manifests/1.9.4
+####################################==> Downloading https://ghcr.io/v2/homebrew/core/lz4/blobs/sha256:1757fefc3840e1
+==> Downloading from https://pkg-containers.githubusercontent.com/ghcr1/blobs/sh
+######################################################################## 100.0%
+==> Fetching xz
+==> Downloading https://ghcr.io/v2/homebrew/core/xz/manifests/5.4.1
+######################################################################## 100.0%
+==> Downloading https://ghcr.io/v2/homebrew/core/xz/blobs/sha256:a2e27545d92f538
+==> Downloading from https://pkg-containers.githubusercontent.com/ghcr1/blobs/sh
+######################################################################## 100.0%
+==> Fetching zlib
+==> Downloading https://ghcr.io/v2/homebrew/core/zlib/manifests/1.2.13
+######################################################################## 100.0%
+==> Downloading https://ghcr.io/v2/homebrew/core/zlib/blobs/sha256:0082aa29a6150
+==> Downloading from https://pkg-containers.githubusercontent.com/ghcr1/blobs/sh
+######################################################################## 100.0%
+==> Fetching zstd
+==> Downloading https://ghcr.io/v2/homebrew/core/zstd/manifests/1.5.4
+######################################################################## 100.0%
+==> Downloading https://ghcr.io/v2/homebrew/core/zstd/blobs/sha256:fe565b3d44fc2
+==> Downloading from https://pkg-containers.githubusercontent.com/ghcr1/blobs/sh
+######################################################################## 100.0%
+==> Fetching binutils
+==> Downloading https://ghcr.io/v2/homebrew/core/binutils/manifests/2.40
+######################################################################## 100.0%
+==> Downloading https://ghcr.io/v2/homebrew/core/binutils/blobs/sha256:f0917ab2f
+==> Downloading from https://pkg-containers.githubusercontent.com/ghcr1/blobs/sh
+######################################################################## 100.0%
+==> Fetching gcc
+==> Downloading https://ghcr.io/v2/homebrew/core/gcc/manifests/12.2.0-2
+######################################################################## 100.0%
+==> Downloading https://ghcr.io/v2/homebrew/core/gcc/blobs/sha256:d2080ede63b45e
+==> Downloading from https://pkg-containers.githubusercontent.com/ghcr1/blobs/sh
+######################################################################## 100.0%
+==> Fetching zanders3/gcc_cross_compilers/i386-elf-binutils
+==> Downloading http://ftp.gnu.org/gnu/binutils/binutils-2.27.tar.gz
+######################################################################## 100.0%
+==> Installing i386-elf-binutils from zanders3/gcc_cross_compilers
+==> Installing dependencies for zanders3/gcc_cross_compilers/i386-elf-binutils: gmp, isl, mpfr, libmpc, lz4, xz, zlib, zstd, binutils and gcc
+==> Installing zanders3/gcc_cross_compilers/i386-elf-binutils dependency: g
+==> Pouring gmp--6.2.1_1.x86_64_linux.bottle.tar.gz
+🍺  /home/linuxbrew/.linuxbrew/Cellar/gmp/6.2.1_1: 23 files, 3.9MB
+==> Installing zanders3/gcc_cross_compilers/i386-elf-binutils dependency: i
+==> Pouring isl--0.25.x86_64_linux.bottle.tar.gz
+🍺  /home/linuxbrew/.linuxbrew/Cellar/isl/0.25: 74 files, 9.2MB
+==> Installing zanders3/gcc_cross_compilers/i386-elf-binutils dependency: m
+==> Pouring mpfr--4.2.0.x86_64_linux.bottle.tar.gz
+🍺  /home/linuxbrew/.linuxbrew/Cellar/mpfr/4.2.0: 31 files, 3.9MB
+==> Installing zanders3/gcc_cross_compilers/i386-elf-binutils dependency: l
+==> Pouring libmpc--1.3.1.x86_64_linux.bottle.tar.gz
+🍺  /home/linuxbrew/.linuxbrew/Cellar/libmpc/1.3.1: 13 files, 638.4KB
+==> Installing zanders3/gcc_cross_compilers/i386-elf-binutils dependency: l
+==> Pouring lz4--1.9.4.x86_64_linux.bottle.tar.gz
+🍺  /home/linuxbrew/.linuxbrew/Cellar/lz4/1.9.4: 22 files, 695.4KB
+==> Installing zanders3/gcc_cross_compilers/i386-elf-binutils dependency: x
+==> Pouring xz--5.4.1.x86_64_linux.bottle.tar.gz
+🍺  /home/linuxbrew/.linuxbrew/Cellar/xz/5.4.1: 223 files, 3MB
+==> Installing zanders3/gcc_cross_compilers/i386-elf-binutils dependency: z
+==> Pouring zlib--1.2.13.x86_64_linux.bottle.tar.gz
+🍺  /home/linuxbrew/.linuxbrew/Cellar/zlib/1.2.13: 13 files, 472.5KB
+==> Installing zanders3/gcc_cross_compilers/i386-elf-binutils dependency: z
+==> Pouring zstd--1.5.4.x86_64_linux.bottle.tar.gz
+🍺  /home/linuxbrew/.linuxbrew/Cellar/zstd/1.5.4: 31 files, 3.2MB
+==> Installing zanders3/gcc_cross_compilers/i386-elf-binutils dependency: b
+==> Pouring binutils--2.40.x86_64_linux.bottle.tar.gz
+🍺  /home/linuxbrew/.linuxbrew/Cellar/binutils/2.40: 4,698 files, 462.5MB
+==> Installing zanders3/gcc_cross_compilers/i386-elf-binutils dependency: g
+==> Pouring gcc--12.2.0.x86_64_linux.bottle.2.tar.gz
+==> Creating the GCC specs file: /home/linuxbrew/.linuxbrew/Cellar/gcc/12.2.0/bi
+🍺  /home/linuxbrew/.linuxbrew/Cellar/gcc/12.2.0: 1,633 files, 306.6MB
+==> Installing zanders3/gcc_cross_compilers/i386-elf-binutils
+==> ../configure --disable-nls --target=i386-elf --disable-werror --enable-gold=
+Last 15 lines from /home/steffan/.cache/Homebrew/Logs/i386-elf-binutils/01.configure:
+
+checking build system type... x86_64-pc-linux-gnu
+checking host system type... x86_64-pc-linux-gnu
+checking target system type... i386-pc-elf
+checking for a BSD-compatible install... /usr/bin/install -c
+checking whether ln works... yes
+checking whether ln -s works... yes
+checking for a sed that does not truncate output... /usr/bin/sed
+checking for gawk... no
+checking for mawk... mawk
+checking for gcc... /usr/local/opt/gcc/bin/gcc-7
+checking for C compiler default output file name... 
+configure: error: in `/tmp/i386-elf-binutils-20230223-26079-13dnyvp/binutils-2.27/build':
+configure: error: C compiler cannot create executables
+See `config.log' for more details.
+
+If reporting this issue please do so at (not Homebrew/brew or Homebrew/homebrew-core):
+  https://github.com/zanders3/homebrew-gcc_cross_compilers/issues
